@@ -1,0 +1,400 @@
+.home {
+  background-color: var(--dark-body-bg) ;
+}
+
+nav {
+  background: transparent;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+header {
+  background-image: url("./images/img-02.png");
+  height: 830px;
+  padding-top: 40px;
+  object-fit: contain;
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.329);
+}
+.nav-link {
+  color: white;
+}
+.contactBtnDiv {
+  display: flex;
+}
+.nav-link.show {
+  color: var(--secondary-color) ;
+}
+.contactBtn {
+  font-size: 14px;
+  width: 156px;
+  height: 56px;
+  border-radius: 12px;
+  background:var(--primary-color);
+  border: none !important;
+}
+
+.headerContent .apply-btn {
+  background-color: var(--dark-body-text);
+  padding:14px 35px 14px 35px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: none;
+  color: var(--secondary-color);
+  font-family: var(--font-poppins);
+  border-radius: 4px 0px 4px 0px;
+}
+
+.headerContent h2 {
+  background: var(--primary-color) ;
+  background-clip: text;
+  color: transparent;
+  font-size: 2.5rem;
+  font-family: var(--font-play-fair) ;
+  font-weight: bold;
+}
+
+.headerContent {
+  h1 {
+    background: var(--primary-color) ;
+    background-clip: text;
+    color: transparent;
+    font-size: 60px;
+    font-family: var(--font-play-fair) ;
+    margin-top: 185px;
+    font-weight: 400;
+  }
+  p {
+    font-size: 18px;
+    color: var(--dark-body-text) ;
+  }
+  button {
+    background: var(--dark-body-text) ;
+    color: var(--secondary-color)  ;
+    border: none;
+  }
+}
+
+
+/* ===================admission-page=============== */
+
+section,
+.section {
+  background-color: var(--dark-body-bg) ;
+  padding: 60px 0;
+  scroll-margin-top: 77px;
+  overflow: clip;
+  border-top: 1px solid #9D7125;
+}
+
+.points h1{
+  color: var(--secondary-color);
+  font-family: var(--font-oleo-script);
+  font-size: 5.5rem;
+  text-align: center;
+  padding-top: 15px;
+}
+.points h2{
+  color: var(--secondary-color);
+  font-family: var(--font-play-fair);
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.points p{
+  color: var(--dark-body-text);
+  font-family: var(--font-open-sans);
+  font-size: medium;
+  font-weight: 300;
+  line-height: inherit;
+}
+
+
+.admission-team h2 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: var(--font-oleo-script);
+  background: var(--primary-color);
+  background-clip: text;
+  color: transparent;
+}
+.admission-team h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: var(--font-play-fair);
+  color: var(--middle-school);
+  text-align: center;
+  margin-top: 18px;
+}
+.admission-team p {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: var(--font-open-sans);
+  color: var(--dark-body-text);
+  text-align: center;
+  margin-top: 12px;
+}
+.bg-color{
+  background: linear-gradient(177.77deg, #212020 3%, rgba(157, 113, 37, 1.1) 628.56%) !important;
+}
+.ad-apply h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: var(--font-open-sans);
+  color: var(--dark-body-text);
+}
+.ad-apply span {
+  font-size: .7rem;
+  text-transform: uppercase;
+  font-family: var(--font-open-sans);
+  color: var(--secondary-color);
+}
+.ad-apply p {
+  font-weight: 200;
+  font-size: .8rem;
+  line-height: 30px;
+  font-family: var(--font-open-sans);
+  color: var(--dark-body-text);
+  margin-top: 12px;
+}
+.ad-apply button {
+  background:linear-gradient(100.18deg, #C29D3F 3.55%, #9D7125 109.96%, #EBDB73 130.41%);
+  padding:12px 35px 12px 35px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  color: var(--middle-school);
+  font-family: var(--font-poppins);
+  border-radius: 4px 0px 4px 0px;
+}
+
+.form-control{
+ width: 65% !important;
+ background-color: #222222 !important;
+ color: var(--dark-body-text) !important;
+} 
+.txt-color input , textarea{
+  border-color: gray !important;
+ } 
+.form-control:focus {
+  outline: 0  !important;
+  box-shadow: none !important;
+}
+.txt-color input::placeholder,.txt-color textarea::placeholder {
+  color: gray; 
+}
+.form-bgcolor{
+  background-color: #201c1c;
+}
+.txt-color button {
+  background:var(--secondary-color);
+  padding:9px 35px 9px 35px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  color: var(--middle-school);
+  font-family: var(--font-poppins);
+  border-radius: 5px 5px 5px 5px;
+  margin-left: 180px;
+
+}
+
+/* ===================FAQ-=============== */
+
+.FAQ .FAQ-heading{
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  font-family: var(--font-oleo-script);
+  background: var(--dark-title-text);
+  background-clip: text;
+  color: transparent;
+}
+
+.FAQ-title{
+  color: var(--secondary-color);  
+  }
+
+.FAQ-title:before, .FAQ-title:after {
+  content: "";
+  width: 110px;
+  height: 2px;
+  background: var(--dark-title-text);
+  display: inline-block;
+  margin: 0px 10px 3px 10px;
+}
+
+.FAQ .accordion-item{
+  color: var(--dark-title-text);
+  background-color: #252424;
+  border-radius: 0px;
+}
+.FAQ .accordion-button{
+  padding: 30px;
+  background-color: #252424;
+  color: var(--dark-title-text) !important;
+  font-family: var(--font-poppins);
+  font-weight: 300;
+  
+}
+.accordion-button:not(.collapsed){
+  box-shadow: none !important;
+  background-color: var(--secondary-color) !important;
+}
+.accordion-button:focus{
+  box-shadow: none !important;
+}
+.accordion-button::after{
+  background-image: url(https://img.icons8.com/ios/50/FFFFFF/expand-arrow--v1.png) !important;
+}
+
+/* ===================FAQ=============== */
+
+/* ===================admission-page=============== */
+
+
+
+/* ===================footer=============== */
+.footer{
+  background-color: var(--dark-body-bg) ;
+  border-top: 1px solid #766f63;
+  /* overflow: clip; */
+  /* border-top: 1px solid #9D7125; */
+}
+.footer h4{
+  color: var(--dark-body-text);
+  font-weight: 400;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+}
+.footer p{
+  color: var(--dark-body-text);
+  line-height: 28px;
+  font-weight: 200;
+}
+.footer ul {
+  padding: 0;
+  list-style: none;
+  line-height: 28px;
+}
+.footer .bordr {
+  border-right: 1px solid #766f63;
+}
+.footer ul a {
+  text-decoration: none;
+  color: var(--dark-body-text);
+}
+.footer input{
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+.footer input:focus{
+  outline: none;
+}
+.footer .butn{
+  background-color: var(--secondary-color);
+  padding: 10px;
+  border: none;
+  width: 100%;
+  color: var(--dark-body-text);
+  font-family: var(--font-open-sans);
+}
+/* ===================footer=============== */
+
+/* ===================admissionpage=================== */
+
+
+/* ==============sas css=================== */
+/* // Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* // color system */
+.color-system {
+    --primary-color :linear-gradient(89.99deg, #C29D3F 0.01%, #EBDB73 59.93%, #9D7125 117.5%);
+    --secondary-color : #C29D3F;
+    --pre-school: #4D899A;
+    --kindgarten: #486760;
+    --lower-school: #4F4F4F;
+    --middle-school: #E2D3B2;
+    --upper-school: #8A344D; 
+}
+
+
+/* // Font Family Variables */
+:root{
+    --font-open-sans: 'Open Sans', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-oleo-script: 'Oleo Script', cursive;
+    --font-play-fair: "Playfair Display", serif;
+    --font-news-reader: "Newsreader", serif;
+
+
+    --dark-body-bg: #222222 ;
+    --dark-body-text :#FFFFFF ;
+    --dark-title-text : #ffffff ;
+
+
+    --primary-color :linear-gradient(89.99deg, #C29D3F 0.01%, #EBDB73 59.93%, #9D7125 117.5%);
+    --secondary-color : #C29D3F;
+    --pre-school: #4D899A;
+    --kindgarten: #486760;
+    --lower-school: #4F4F4F;
+    --middle-school: #E2D3B2;
+    --upper-school: #8A344D; 
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+
+    header {
+        height: 600px !important;
+    }
+    .headerContent h1 {
+        margin-top: 150px !important;
+        font-size: 30px !important;
+    }
+    p {
+        font-size: 13px !important;
+        color: dark-body-text !important;
+    }
+    .header-banner-div {
+        position: static !important;
+        margin-top: 8rem !important;
+    }
+    .headerContent .apply-btn {
+      padding: 10px 30px 10px 30px;
+    }
+    .headerContent h2 {
+      font-size: 2rem;
+      padding-top: 11px;
+    }
+    .points h1 {
+      font-size: 4rem;
+  }
+  .points h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .form-control{
+    width: 100% !important;
+  } 
+  .admission-team h2 {
+    font-size: 1.8rem;
+  }
+    .txt-color button {
+      margin-left: 45px;
+  }
+
+}
